@@ -12,7 +12,7 @@ A collection of New York City Yellow Cab taxi trip records spanning January 2009
 
 #### [NYC Taxi Trip datase](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
 
-### Special Requirements
+### Special Requirements:
 To reduce the computation power: 
 1. You only need to take the data of 2015 January Yellow Taxi (~1.8 GB in total). 
 2. Each cell unit size is 0.01 * 0.01 in terms of latitude and longitude degrees. 
@@ -23,7 +23,7 @@ To reduce the computation power:
 ### Constraints:  
 Time and space should be aggregated into cube cells as specified on command line. Together, this will form a space-time cube.
 
-### Hints
+### Hints:
 1. A higher Getis-Ord z score means this cell is hotter. 
 2. If a cell has more taxi trip records, that means this cell is hotter and has higher z score. The number of trips in this cell is the attribute value of this cell. 
 3. This spatial neighborhood is created for the preceding, current, and following time periods (i.e., each cell has 26 neighbors). For simplicity of computation, the weight of each neighbor cell is presumed to be equal. You can treat it as 1. If two cells are not neighbors, their weight is 0. 
