@@ -10,7 +10,7 @@ Focus on applying spatial statistics to spatio-temporal big data in order to ide
 ### Input: 
 A collection of New York City Yellow Cab taxi trip records spanning January 2009 to June 2015. The source data may be clipped to an envelope encompassing the five New York City boroughs in order to remove some of the noisy error data (e.g., latitude 40.5N – 40.9N, longitude 73.7W – 74.25W).
 
-#### [NYC Taxi Trip datase](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
+#### [NYC Taxi Trip dataset](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
 
 ### Special Requirements:
 To reduce the computation power: 
