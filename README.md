@@ -1,5 +1,5 @@
 # ACM-SIGSPATIAL-Cup-2016
-Applied spatial statistics to spatio-temporal big data to identify statistically significant spatial hot spots using Apache Spark using Apache Spark
+Applied spatial statistics to spatio-temporal big data to identify statistically significant spatial hot spots using Hadoop Distributed File System (HDFS) and Apache Spark on a 4-node cluster 
 
 ### Instruction to run:
 ```
